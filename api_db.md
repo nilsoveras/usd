@@ -31,7 +31,7 @@ col       |desc
 lang      |'nb': 'Bokmål','nn': 'Nynorsk'
 orth      |inflected forms of headword
 cnt       |length of orth
-headwords |list of headwords separated with '|'
+headwords |list of headwords separated with `|`
 
 ###headwords examples
     lang='nb',orth='vakt',cnt=4,headwords='vak|vake|vakte|vekke'
