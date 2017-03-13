@@ -11,6 +11,7 @@ use 'like' only if the user has entereed wildchars
 
 ##search headword
 ```select entries from headword{mf} where orth {ope} ?"```
+
 If this results in one row, then **show entries**.  
 
 If this results in more than one row, then **list alternatives**  
@@ -19,6 +20,7 @@ If no results:
 
 ##search inflection
 ```select headwords from inflection{mf} where orth {ope} ?```
+
 If this results in one row with one headword, then **search headword**  
 
 If this results on more than one row, then **list alternatives**
