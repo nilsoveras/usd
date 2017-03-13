@@ -1,12 +1,18 @@
-#API VIEWS
+#API TABLES
+    The api views are based on two set of tables  
+    Table names are post-fixed with: 0='nb',1='nn'  
+    It is recommended to use the tables directly for better performance  
 
-##Entry
+#API VIEWS
+The column lang is created by the views  
+
+##entry
 col       |desc
 ----------|---------
 id        |numeric id 
 entry     |json object representing one entry
 
-##Headword
+##headword
 col       |desc
 ----------|---------
 lang      |'nb': 'Bokmål','nn': 'Nynorsk'
@@ -15,9 +21,16 @@ t         |type
 cnt       |length of orth
 entries   |list of entries separated with commas
 
-###Ordbanken - Ordboka
 
-###type:
+###Ordbanken - Ordboka
+    Orbanken contains the basic words of Norwegian
+    Some words and idioms are added in ordboka e.g "finne på" and "direkten"
+    In most cases norweginaified versions of words are present in ordboka, e.g. kafe and kafè
+    Missing norwegianified/lowercase versions of words are generated after extraction 
+    from the source database e.g señora:senora and NRK:nrk 
+
+
+###headword type
 type      |desc
 ----------|---------
 'B'       |Base words from ordbanken with entries in ordboka
@@ -33,12 +46,6 @@ orth      |inflected forms of headword
 cnt       |length of orth
 headwords |list of headwords separated with `|`
 
-###headwords examples
+###row examples
     lang='nb',orth='vakt',cnt=4,headwords='vak|vake|vakte|vekke'
     lang='nb',orth='gikk',cnt=4,headwords='gå'
-
-#API TABLES
-The api views are based on two set of tables  
-They are post-fixed with: 0='nb',1='nn'  
-The column lang is created by the views  
-It is recommended to use the tables directly for better performance  
