@@ -1,8 +1,10 @@
 #sqls used against api.db
 ##substitutions
-{mf}: ’0’ or ‘1’  
-{ope} : ’=’ or ‘like’  
-? : entered search  
+symbol|desc
+------|----
+{mf} |’0’ or ‘1’  
+{ope}|’=’ or ‘like’  
+?    |entered search  
 
 NB: 'like' does not use the index, and will be slower  
 use like only if the user has entereed wildchars  
