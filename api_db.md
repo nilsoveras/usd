@@ -1,5 +1,5 @@
 #API TABLES
-The api views are based on two set of tables,one set for Nynorsk and one set for Bokmål  
+The api views are based on two set of tables, one set for Nynorsk and one set for Bokmål  
 Table names are post-fixed with: 0=`nb`,1=`nn`  
 It is recommended to use the tables directly for better performance  
 
@@ -25,9 +25,9 @@ entries   |list of entries separated with commas
 ###Ordbanken - Ordboka
 Orbanken contains the basic words of Norwegian  
 Some words and idioms are added in ordboka e.g `finne på` and `direkten`  
-In most cases norweginified versions of words are present in ordboka, e.g. `kafe` and `kafè`  
+In most cases norwegianified versions of words are present in ordboka, e.g. `kafe` and `kafè`  
 Missing norwegianified/lowercase versions of words are generated after extraction
-from the source database e.g señora:senora and NRK:nrk
+from the source database e.g `señora` -> `senora` and `NRK` -> `nrk`
 
 
 ###headword type
