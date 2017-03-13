@@ -2,15 +2,17 @@
 ##substitutions
 symbol|desc
 ------|----
-{mf} |’0’ or ‘1’  
+{mf} |0='nb',1='nn'
 {ope}|’=’ or ‘like’  
 ?    |entered search  
 
 NB: 'like' does not use the index, and will be slower  
-use 'like' only if the user has entereed wildchars  
+use 'like' only if the user has entered wildchars  
 
 ##search headword
-```select entries from headword{mf} where orth {ope} ?```  
+```sql
+select entries from headword{mf} where orth {ope} ?
+```  
 If this results in one row, then **show entries**.  
 If this results in more than one row, then **list alternatives**  
 If no results:
