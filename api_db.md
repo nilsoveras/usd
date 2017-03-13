@@ -1,5 +1,5 @@
 #API TABLES
-The api views are based on two set of tables  
+The api views are based on two set of tables,one set for Nynorsk and one set for Bokmål  
 Table names are post-fixed with: 0=`nb`,1=`nn`  
 It is recommended to use the tables directly for better performance  
 
