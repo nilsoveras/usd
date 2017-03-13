@@ -34,11 +34,11 @@ cnt       |length of orth
 headwords |list of headwords separated with '|'
 
 ###headwords examples
-lang='nb',orth='vakt',cnt=4,headwords='vak|vake|vakte|vekke'
-lang='nb',orth='gikk',cnt=4,headwords='gå'
+    lang='nb',orth='vakt',cnt=4,headwords='vak|vake|vakte|vekke'
+    lang='nb',orth='gikk',cnt=4,headwords='gå'
 
 #API TABLES
-The api views are based on two set of tables.
-They are post-fixed with: 0='nb',1='nn'
-The column lang is created by the views. 
-It is recommended to use the tables directly for better performance.
+The api views are based on two set of tables  
+They are post-fixed with: 0='nb',1='nn'  
+The column lang is created by the views  
+It is recommended to use the tables directly for better performance  
