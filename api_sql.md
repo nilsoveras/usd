@@ -22,7 +22,7 @@ If no results:
 select headwords from inflection{mf} where orth {ope} ?
 ```  
 If this results in one row with one headword, then **search headword**  
-If this results on more than one row, then **list alternatives**  
+If this results on more than one row or more than one headword, then **list alternatives**  
 
 ##show entries
 For each entry:  
