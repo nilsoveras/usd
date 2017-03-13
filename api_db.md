@@ -24,7 +24,7 @@ entries   |list of entries separated with commas
 
 ###Ordbanken - Ordboka
 Orbanken contains the basic words of Norwegian  
-Some words and idioms are added in ordboka e.g *finne på* and *direkten*  
+Some words and idioms are added in ordboka e.g `finne på` and `direkten`  
 In most cases norweginified versions of words are present in ordboka, e.g. `kafe` and `kafè`  
 Missing norwegianified/lowercase versions of words are generated after extraction
 from the source database e.g señora:senora and NRK:nrk
@@ -33,10 +33,10 @@ from the source database e.g señora:senora and NRK:nrk
 ###headword type
 type      |desc
 ----------|---------
-'B'       |Base words from ordbanken with entries in ordboka
-'U'       |Base words from ordbanken without entries in ordboka - undefined words
-'D'       |Dummy - lowercase/transformed versions of headwords not already defined
-'I'       |Ididoms and expressions added in ordboka
+B         |Base words from ordbanken with entries in ordboka
+U         |Base words from ordbanken without entries in ordboka - undefined words
+D         |Dummy - lowercase/transformed versions of headwords not already defined
+I         |Ididoms and expressions added in ordboka
 
 ##Inflection
 col       |desc
