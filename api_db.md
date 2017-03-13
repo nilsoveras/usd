@@ -24,7 +24,7 @@ entries   |list of entries separated with commas
 
 ###Ordbanken - Ordboka
 Orbanken contains the basic words of Norwegian  
-Some words and idioms are added in ordboka e.g `finne på` and `direkten`  
+Some words and idioms are added in ordboka e.g *finne på* and *direkten*  
 In most cases norweginified versions of words are present in ordboka, e.g. `kafe` and `kafè`  
 Missing norwegianified/lowercase versions of words are generated after extraction
 from the source database e.g señora:senora and NRK:nrk
