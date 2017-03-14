@@ -1,16 +1,16 @@
-# Oppsett av Oracle databaseservere for ordbøkene
-## Servere, databaser
+# Oppsett av Oracle databaseservere for ordbøkene  
+## Servere, databaser  
 
-Det går bare en database på hver server.
+Det går bare en database på hver server.  
 
-server       |besrivelse
--------------|----------
-amalie.uib.no|Den primære produksjonsbasen
+server       |besrivelse  
+-------------|----------  
+amalie.uib.no|Den primære produksjonsbasen  
 sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler
 hauge.uib.no |Utviklingsdatabase
 dahl.uib.no  |Testdatabase (ikke satt i funksjon ennå)
 
-### Endringer
+### Endringer  
 Noen endringer blir gjort rett i prod, f.eks. legge en ny fil til et tablespace.
 Andre endringer er tenkt utført i DEV for så å testes i TEST.
 TEST basen vil bli klonet fra PROD og programendringer fra DEV lagt til før testen.
