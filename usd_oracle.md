@@ -8,17 +8,17 @@ server       |besrivelse
 amalie.uib.no|Den primære produksjonsbasen
 sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler
 hauge.uib.no |Utviklingsdatabase
-dahl.uib.no  |Testdatabase
+dahl.uib.no  |Testdatabase (ikke satt i funksjon ennå)
 
 ### Endringer
-Noen endringer blir gjort rett i prod, e.g. legge en ny fil til et tablespace.
+Noen endringer blir gjort rett i prod, f.eks. legge en ny fil til et tablespace.
 Andre endringer er tenkt utført i DEV for så å testes i TEST.
 TEST basen vil bli klonet fra prod og programendringer fra DEV lagt til før testen.
 Siste fase er å legge endringene til i PROD.
 
 ## Script,cron
 Faste jobber blir kjørt via crontab av oracle brukeren.  
-Skriptene ligger i katalogen **/home/oracle/script**
+Scriptene ligger i katalogen **/home/oracle/script**
   
 ### Dette er crontab  på amalie:
 ```
@@ -72,8 +72,8 @@ amalie med ORACLE_SID=eddng er brukt som eksempel
     ORACLE_HOME  
 
 * /Orasoft/oracle/product/ora12102/dbs/initeddng.ora  
-    inneholder oppstarts-parametre for databasen f. eks  
-    db_recovery_file_dest og diagnostic_dest  
+    inneholder oppstarts-parametre for databasen f.eks.  
+    db_recovery_file_dest.  
 
 * /Orasoft/oracle/diag/rdbms/eddng/eddng/trace/alert_eddng.log 
     alertlog  
