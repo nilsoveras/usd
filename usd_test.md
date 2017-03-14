@@ -43,10 +43,10 @@ Blir vanligvis kopiert til tape, men det er ikke satt opp for ordbøkene.
 Restore i en krisesituasjon henter data fra denne katalogen.  
 Blir bestemt av parameteren: db_recovery_file_dest="/Oraarc"  
 
-* /Orabak  
-Bakup filer laget av datapump.  
-Det kan tas backup av ett og ett schema.  
-Dette gjøres etter behov.
+* /Orabak
+    Bakup filer laget av datapump.
+    Det kan tas backup av ett og ett schema.  
+    Dette gjøres etter behov.
     
 * /Oradata  
     Selve databasefilene.  
