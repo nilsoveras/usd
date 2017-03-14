@@ -9,8 +9,7 @@ hauge.uib.no |Utviklingsdatabase
   
 ## Katalogstruktur oracle databaser
 ### Rotkataloger
-* /Oraarc
-  
+* /Oraarc  
     Arkivlogger og RMAN backup filer.  
     En fullstendig database kan restores fra denne katalogen.  
     Blir vanligvis kopiert til tape, men det er ikke satt opp for ordbøkene.  
@@ -23,27 +22,25 @@ hauge.uib.no |Utviklingsdatabase
     Det kan tas backup av ett og ett schema.  
     Dette gjøres etter behov.
     
-* /Oradata
+* /Oradata  
     Selve databasefilene.  
     Disse filene oppdateres konstant,  
     og en backup av denne katalogen ville ha vært inkonsistent.  
-* /Oralog
-  
+* /Oralog  
     Logger og tracer.  
     Bla. den viktige alertloggen  
     Blir bestemt av parameteren  
     diagnostic_dest="/Oralog"  
-* /Orasoft
-  
+* /Orasoft  
     Oracle software.  
     Inneholder ORACLE_BASE og ORACLE_HOME  
   
 ### Underkataloger
-* /Ora???
+* /Ora??? 
     katalogene har underkataloger for hver database som kjøres.  
     ⁞amalie med ORACLE_SID#eddng er brukt som eksempel  
   
-#### Eksempel på underkataloger og filer  
+#### Eksempel på underkataloger og filer
 * /Oraarc/EDDNG/archivelog/2016_09_08  
     Løpende arkivloggfiler  
 * /Oraarc/EDDNG/controlfile  
