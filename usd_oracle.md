@@ -1,12 +1,12 @@
-#Oppsett av Oracle databaseservere for ordbøkene  
-##Servere, roller  
+#Oppsett av Oracle databaseservere for ordbøkene
+##Servere, roller
 server       |besrivelse  
 amalie.uib.no|Den primære produksjonsbasen  
 sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler  
 hauge.uib.no |Utviklingsdatabase  
   
-##Katalogstruktur oracle databaser  
-###Rotkataloger  
+##Katalogstruktur oracle databaser
+###Rotkataloger
 * /Oraarc  
   
     Arkivlogger og RMAN backup filer.  
@@ -15,29 +15,29 @@ hauge.uib.no |Utviklingsdatabase
     Restore i en krisesituasjon henter data fra denne katalogen.  
     Blir bestemt av parameteren  
     db_recovery_file_dest="/Oraarc"  
-* /Orabak  
+* /Orabak
   
     Bakup filer laget av datapump.  
     Det kan tas backup av ett og ett schema.  
     Dette gjøres etter behov.  
-* /Oradata  
+* /Oradata
   
     Selve databasefilene.  
     Disse filene oppdateres konstant,  
     og en backup av denne katalogen ville ha vært inkonsistent.  
-* /Oralog  
+* /Oralog
   
     Logger og tracer.  
     Bla. den viktige alertloggen  
     Blir bestemt av parameteren  
     diagnostic_dest="/Oralog"  
-* /Orasoft  
+* /Orasoft
   
     Oracle software.  
     Inneholder ORACLE_BASE og ORACLE_HOME  
   
-###Underkataloger  
-* /Ora???  
+###Underkataloger
+* /Ora???
     katalogene har underkataloger for hver database som kjøres.  
     ⁞amalie med ORACLE_SID#eddng er brukt som eksempel  
   
