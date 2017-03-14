@@ -10,13 +10,13 @@ hauge.uib.no |Utviklingsdatabase
 ## Katalogstruktur oracle databaser
 ### Rotkataloger
 #### /Oraarc
-    Arkivlogger og RMAN backup filer.  
-    En fullstendig database kan restores fra denne katalogen.  
-    Blir vanligvis kopiert til tape, men det er ikke satt opp for ordbøkene.  
-    Restore i en krisesituasjon henter data fra denne katalogen.  
-    Blir bestemt av parameteren  
-    db_recovery_file_dest="/Oraarc"  
-    
+Arkivlogger og RMAN backup filer.  
+En fullstendig database kan restores fra denne katalogen.  
+Blir vanligvis kopiert til tape, men det er ikke satt opp for ordbøkene.  
+Restore i en krisesituasjon henter data fra denne katalogen.  
+Blir bestemt av parameteren  
+db_recovery_file_dest="/Oraarc"  
+
 #### /Orabak  
     Bakup filer laget av datapump.  
     Det kan tas backup av ett og ett schema.  
