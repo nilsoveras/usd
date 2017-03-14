@@ -8,7 +8,7 @@ sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler
 hauge.uib.no |Utviklingsdatabase
 dahl.uib.no  |Testdatabase
   
-## Script,cron
+## Script,cron  
     Faste jobber blir kjørt via crontab av oracle brukeren.
     Skriptene ligger i katalogen /home/oracle/script
   
