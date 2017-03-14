@@ -1,16 +1,18 @@
+
 #Oppsett av Oracle databaseservere for ordbøkene
 
 ##Servere, roller
+
 server       |besrivelse
 -------------|----------
-amalie.uib.no|Den primære produksjonsbasen  
-sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler  
-hauge.uib.no |Utviklingsdatabase  
+amalie.uib.no|Den primære produksjonsbasen
+sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler
+hauge.uib.no |Utviklingsdatabase
   
 ##Katalogstruktur oracle databaser
 
 ###Rotkataloger
-* /Oraarc  
+* /Oraarc
   
 Arkivlogger og RMAN backup filer.  
 En fullstendig database kan restores fra denne katalogen.  
