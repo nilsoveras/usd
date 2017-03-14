@@ -1,5 +1,7 @@
 # Oppsett av Oracle databaseservere for ordbøkene
-## Servere, roller
+## Servere, databaser
+
+Det går bare en database på hver server.
 
 server       |besrivelse
 -------------|----------
@@ -7,7 +9,13 @@ amalie.uib.no|Den primære produksjonsbasen
 sigrid.uib.no|Amalie replikeres hit og vil overta hvis amalie feiler
 hauge.uib.no |Utviklingsdatabase
 dahl.uib.no  |Testdatabase
-  
+
+### Endringer
+Noen endringer blir gjort rett i prod, e.g. legge en ny fil til et tablespace.
+Andre endringer er tenkt utført i DEV for så å testes i TEST.
+TEST basen vil bli klonet fra prod og programendringer fra DEV lagt til før testen.
+Siste fase er å legge endringene til i PROD.
+
 ## Script,cron
 Faste jobber blir kjørt via crontab av oracle brukeren.  
 Skriptene ligger i katalogen **/home/oracle/script**
