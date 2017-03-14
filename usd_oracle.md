@@ -10,7 +10,7 @@ dahl.uib.no  |Testdatabase
   
 ## Script,cron
 Faste jobber blir kjørt via crontab av oracle brukeren.  
-Skriptene ligger i katalogen /home/oracle/script
+Skriptene ligger i katalogen **/home/oracle/script**
   
 ### Dette er crontab  på amalie:
 ```
@@ -21,6 +21,9 @@ Skriptene ligger i katalogen /home/oracle/script
     02 00 * * 1 .         /home/oracle/.bash_profile ; db.sh natt0
 ```
 
+Hver natt mandag-fredag rett etter midnatt kjører det en jobb som danner grunnlag for håndordbøkene på nett.
+Etter denne jobben kjøres full RMAN backup hver mandag, og incrementell backup de andre dagene.
+Hver hverdag om kvelden kjøres datapump eksport av de viktigste schemaene til /Orabak.
 
 ## Katalogstruktur oracle databaser
 ### Rotkataloger
