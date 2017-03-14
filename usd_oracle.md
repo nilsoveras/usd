@@ -1,12 +1,12 @@
 #Oppsett av Oracle databaseservere for ordbøkene
 ##Servere, roller
 * amalie.uib.no
-    Den primære produksjonsbasen
+    - Den primære produksjonsbasen
 * sigrid.uib.no
-    Amalie replikeres hit og vil overta hvis amalie feiler
+    - Amalie replikeres hit og vil overta hvis amalie feiler
 
 * hauge.uib.no
-    Utviklingsdatabase
+    - Utviklingsdatabase
 
 ##Katalogstruktur oracle databaser
 ###Rotkataloger
