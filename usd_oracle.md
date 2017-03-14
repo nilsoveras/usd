@@ -24,7 +24,6 @@ hauge.uib.no |Utviklingsdatabase
     Dette gjøres etter behov.
     
 * /Oradata
-  
     Selve databasefilene.  
     Disse filene oppdateres konstant,  
     og en backup av denne katalogen ville ha vært inkonsistent.  
