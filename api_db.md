@@ -71,19 +71,11 @@ I         |Ididoms and expressions added in ordboka
 ### inflection
 
 col       |type|desc
-----------|---------
+----------|----|----
 lang      |text|'nb': 'Bokmål','nn': 'Nynorsk'
 orth      |text|inflected forms of headword
 cnt       |int|length of orth
-headwords |text|list of headwords separated with 
-
-
-### entry
-
-col       |type|desc
-----------|----|---------
-id        |unique int| entry identifier
-entry     |json| object representing one dictionary article
+headwords |text|list of headwords separated with `|`
 
 The `(lang, orth)` tuple is unique.
 
