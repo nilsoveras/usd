@@ -77,6 +77,14 @@ orth      |text|inflected forms of headword
 cnt       |int|length of orth
 headwords |text|list of headwords separated with 
 
+
+### entry
+
+col       |type|desc
+----------|----|---------
+id        |unique int| entry identifier
+entry     |json| object representing one dictionary article
+
 The `(lang, orth)` tuple is unique.
 
 #### examples
