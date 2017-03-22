@@ -27,3 +27,29 @@ verb, s-verb|verb
 verb, ubøy|verb ubøy
 
 
+### Nynorsk
+pos|posl
+--------|----
+adjektiv, adverbtype|adj <adv>,adv
+adjektiv, ulik m/f|adj
+adjektiv|a1,adj,a2,a3,a4,a5
+adverb|adv
+determinativ, <adj>|det dem <adj>,det forst <adj>
+determinativ, enkel|det dem fl,det dem mask eint,det dem nøyt eint,det sp,det dem bu <adj>,det forst <adj>
+determinativ|det kvant,det poss,det dem
+forkorting|fork
+i samansetting|i sms
+infinitivsmerke|inf-merke
+interjeksjon|interj
+konjunksjon|konj <adv>,konj,CLB konj
+prefiks|pref
+preposisjon|prep
+pronomen, enkel|pron sp poss hum
+pronomen, normal|pron eint,pron pers 2 fl hum,pron pers 3 fl hum,pron pers 3 eint nøyt,pron pers 2 eint hum,pron pers 1 eint hum,pron pers eint hum,pron res fl hum,pron fl,pron pers 3 eint mask,pron pers 3 eint fem,pron sp hum,pron pers 1 fl hum,pron refl eint/fl
+subjunksjon|sbu
+substantiv, sv hokj|f2
+substantiv, ubøy|m.,subst appell,f.,n.,s.
+substantiv|m.,m1,n1,f.,f3,n.,f1,subst appell,f2
+symbol|symb
+verb, normal|v2,v1,verb,v3
+verb, st-verb|verb
