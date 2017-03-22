@@ -36,13 +36,23 @@ c1 |c2
 m=main entry |m=main definition       
 s=sub entry  |s=sub definition  
 
-### example
+### example - løp
 <pre>
 etym.samans.0.text            i sammensetninger  som gjelder ulike idretter:
 etym.samans.1.ref             <a href="{url}&sok=kvalifiseringsløp#329850">kvalifiseringsløp</a>
 </pre>
 
-### example - stas
+### example - filere
+<pre>
+senses.2.defs.0.mm-context    mus.</pre>
+</pre>
+
+### example - artium
+<pre>
+etym.phons.0.phon             artsium
+</pre>
+
+### complete example - stas
 <pre>
 norsk-lang                    nb
 eid                           567290
