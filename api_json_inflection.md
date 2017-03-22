@@ -3,10 +3,6 @@
 ### Bokmål
 pos|n|heading|desc
 --------|----|--|---
-boy_gruppe
-||'|'||boy_nummer
-||'|'||case when boy_tekst is null then '' else boy_tekst end
-||'|'||ordbok_tekst
 adjektiv, adverbtype|0|pos|grad_pos
 adjektiv, adverbtype|1|komp|grad_komparativ
 adjektiv, adverbtype|2|sup|grad_superlativ
@@ -74,10 +70,6 @@ verb, ubøy|0||verb
 ### Nynorsk
 pos|n|heading|desc
 --------|----|--|---
-boy_gruppe
-||'|'||boy_nummer
-||'|'||case when boy_tekst is null then '' else boy_tekst end
-||'|'||case when ordbok_tekst is null then '' else ordbok_tekst end
 adjektiv, adverbtype|0|pos|grad_pos
 adjektiv, adverbtype|1|komp|grad_komparativ
 adjektiv, adverbtype|2|sup|grad_superlativ
