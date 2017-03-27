@@ -1,4 +1,4 @@
-# Dictionary SQLite database format
+# Dictionary SQLite database format.
 
 This document describes the SQLite export format of the "Bokmålsordboka og
 Nynorskordboka" dictionary.  This is a database file containing a collection of
@@ -28,7 +28,7 @@ It is recommended to use the tables directly for better performance.
 
 ## Views
 
-The column `lang` is created by the views  
+The column `lang` is created by the views
 
 ### entry
 
@@ -51,9 +51,9 @@ The `(lang, orth)` tuple is unique.
 
 
 #### Ordbanken - Ordboka
-Orbanken contains the basic words of Norwegian  
-Some words and idioms are added in ordboka e.g `finne på` and `direkten`  
-In most cases norwegianified versions of words are present in ordboka, e.g. `kafe` and `kafè`  
+Orbanken contains the basic words of Norwegian
+Some words and idioms are added in ordboka e.g `finne på` and `direkten`
+In most cases norwegianified versions of words are present in ordboka, e.g. `kafe` and `kafè`
 Missing norwegianified/lowercase versions of words are generated after extraction
 from the source database e.g `señora` -> `senora` and `NRK` -> `nrk`
 
