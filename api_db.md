@@ -1,4 +1,4 @@
-# Dictionary SQLite database format.
+# Dictionary SQLite database format..
 
 This document describes the SQLite export format of the "Bokmålsordboka og
 Nynorskordboka" dictionary.  This is a database file containing a collection of
