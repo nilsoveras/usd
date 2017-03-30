@@ -60,7 +60,7 @@ grams
 grams.0.headword              stas
 grams.0.pos_tid               200
 grams.0.posl                  m1
-grams.0.forms_tbl.th_hid      20
+grams.0.forms_tbl.hid         20
 grams.0.forms_tbl.rows
 grams.0.forms_tbl.rows.0      stas|stasen|staser|stasene
 etym.langs
