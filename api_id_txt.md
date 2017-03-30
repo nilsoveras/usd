@@ -22,9 +22,8 @@ pp   |perfektum participium
 obj  |objective
 
 #### Heads
-
-id |0  |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |11 |12 |13 |14 |15
----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9        |10     |11       |12 |13 |14
+---|---   |---     |---     |---     |---     |---    |---    |---   |---    |---      |---    |---      |---|---|---
 10|inf    |pres    |inf pres|pret    |pp supi |pp n   |pp m f |pp b  |pp plur|pres part|imp
 11|inf    |inf     |pres    |inf pres|pret    |pp supi|pp n   |pp m f|pp f   |pp b     |pp plur|pres part|imp|imp|imp
 12|inf    |pres    |pret    |supi    |imp
@@ -40,7 +39,7 @@ id |0  |1  |2  |3  |4  |5  |6  |7  |8  |9  |10 |11 |12 |13 |14 |15
 22|nom    |obj
 
 #### Pos
-id|value
+tid|value
 --|-----
 100|verb, normal
 111|verb, normal
