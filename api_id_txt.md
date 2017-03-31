@@ -1,5 +1,5 @@
-#Text values
-###Abbreviations
+# Text values
+### Abbreviations
 abb  |description
 -----|-----------
 b    |bounded,bunden,bestemt
@@ -23,7 +23,7 @@ super|superlative
 pp   |perfektum participium
 obj  |objective
 
-###Head strings
+### Head strings
 hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9        |10     |11       |12 |13 |14
 ---|---   |---     |---     |---     |---     |---    |---    |---   |---    |---      |---    |---      |---|---|---
 10|inf    |pres    |inf pres|pret    |pp supi |pp n   |pp mf  |pp b  |pp plur|pres part|imp
@@ -32,7 +32,7 @@ hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9 
 13|inf    |pres    |pret    |supi
 14|s m    |s f     |s n     |s b     |plur
 15|s m    |s f     |s n     |s b     |plur    |comp   |super  |super b
-16|pos m f|pos plur|pos b   |pos n   |comp    |super  |super b
+16|pos mf |pos plur|pos b   |pos n   |comp    |super  |super b
 17|pos    |comp    |super
 18|pos m  |pos f   |pos n   |pos b   |pos plur|comp   |super  |super b
 19|s m    |s f     |s n     |plur
@@ -40,7 +40,7 @@ hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9 
 21|nom    |b       |plur    |plur b
 22|nom    |obj
 
-###Head tids
+### Head tids
 hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9        |10     |11       |12 |13 |14
 ---|---   |---     |---     |---     |---     |---    |---    |---   |---    |---      |---    |---      |---|---|---
 10|18|19|18,19|20|28,21|28,14|28,13|28,10|28,16|19,23|24
@@ -49,7 +49,7 @@ hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9 
 13|18|19|20|21
 14|15,11|15,12|15,14|15,10|16
 15|15,11|15,12|15,14|15,10|16|26|27|27,10
-16|25,11,12|25,16|25,10|25,14|26|27|27,10
+16|25,13|25,16|25,10|25,14|26|27|27,10
 17|25|26|27
 18|25,11|25,12|25,14|25,10|25,16|26|27|27,10
 19|15,11|15,12|15,14|16
@@ -57,7 +57,7 @@ hid|0     |1       |2       |3       |4       |5      |6      |7     |8      |9 
 21|17|10|16|16,10
 22|17|29
 
-###Tids
+### Tids
 tid|value
 ---|-----
 10|b
